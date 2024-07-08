@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height:100vh ;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Outfit',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: linear-gradient(160deg, rgb(53, 3, 32),rgba(5, 5, 70,0.6)) ;
+}
+
+.card{
+    background: linear-gradient(90deg,rgb(163, 19, 108), rgb(48, 32, 92));
+    height: 450px;
+    width: 250px;
+    padding: 20px;
+    margin: 60px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(53, 2, 54, 0.9) 12px 15px 12px 15px;
+    
+
+
+
+}
+
+.container .card .image .pr{
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
+    border:rgba(199, 148, 186,0.2) solid;
+    box-shadow: rgba(11, 69, 155, 0.4) 10px 20px 30px 10px;
+}
+    
+
+
+
+.container .card .image div{
+    background-color: rgba(211, 118, 175,0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 253px;
+    width: 255px;
+    transform: translate(555px,100px);
+    opacity: 0;
+
+    
+}
+.container .card .image div:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.container .card .image div img{
+    width: 20%;
+    height: 20%;
+    transform: translate(100px,100px);
+
+
+}
+
+
+
+.container .card h3{
+    font-weight: 600;
+    color: rgb(255, 255, 242,0.6);
+    padding-top: 12px;
+
+}
+
+.container .card .desc{
+    color: hsl(178, 100%, 50%,0.5);
+    font-size: 15px;
+    padding-top:14px ;
+    padding-bottom: 14px ;
+}
+.container .card .price-days{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom:rgba(199, 148, 186,0.2) solid  ;
+
+}
+.container .card .price-days .price{
+    color:hsl(178, 100%, 50%);
+    font-weight: 600;
+    
+}
+.container .card .price-days .days{
+    color: rgb(246, 236, 252);
+}
+
+
+
+
+
+
+.container .card .creator img{
+    width: 30px;
+    border:  rgba(7, 221, 236,0.5) solid;;
+    border-radius: 50%;
+    margin-right: 1rem;;
+}
+.container .card .creator{
+    display:flex;
+    padding-top: 13px;
+    color: rgba(247, 245, 245,0.6) ;
+    font-size: 14px ;
+    display: flex;
+    align-items: center;
+}
+.container .card .creator span{
+    color: rgb(211, 118, 175);
+    margin-left: 5px;
+
+}
+
+h3,span{
+    cursor: pointer;
+}
+
+
+.container .card h3:hover,.container .card .creator span:hover{
+    color:rgb(4, 4, 71);
+}
