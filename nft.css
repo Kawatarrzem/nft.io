@@ -49,6 +49,7 @@
     height: 253px;
     width: 255px;
     transform: translate(555px,100px);
+    border-radius: 10px;
     opacity: 0;
 
     
